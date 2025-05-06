@@ -14,7 +14,7 @@ The goal is to enhance the efficiency of Security Operation Centers (SOCs) by au
 
 ### 2. Data Preprocessing
 - **Handling Missing Data**: Identify and address missing values through strategies like imputation or removal.
-- **Feature Engineering**: Create or modify features to improve model performance (e.g., combining related features, deriving new features from timestamps, or normalizing numerical variables).
+- **Feature Engineering**: Create or modify features to improve model performance (e.g. deriving new features from timestamps, or normalizing numerical variables).
 - **Encoding Categorical Variables**: Convert categorical features to numerical values using methods like one-hot encoding, label encoding, or target encoding.
 
 ### 3. Data Splitting
@@ -23,7 +23,7 @@ The goal is to enhance the efficiency of Security Operation Centers (SOCs) by au
 
 ### 4. Model Selection and Training
 - **Baseline Model**: Start with a simple model (e.g., logistic regression or decision tree) to set a performance benchmark.
-- **Advanced Models**: Experiment with more complex models like Random Forest, XGBoost, LightGBM, and Neural Networks.
+- **Advanced Models**: Experiment with more complex models like Random Forest, XGBoost, LightGBM.
 - **Cross-Validation**: Implement k-fold cross-validation to ensure reliable model evaluation and reduce overfitting risks.
 
 ### 5. Model Evaluation and Tuning
@@ -32,7 +32,7 @@ The goal is to enhance the efficiency of Security Operation Centers (SOCs) by au
 - **Handling Class Imbalance**: Apply techniques like SMOTE (Synthetic Minority Over-sampling Technique), adjusting class weights, or using ensemble methods to boost the model's ability to handle minority classes.
 
 ### 6. Model Interpretation
-- **Feature Importance**: Analyze the most influential features for predictions using methods like SHAP values, permutation importance, or model-specific importance measures.
+- **Feature Importance**: Analyze the most influential features for predictions using methods like randomforest feature importance score, or model-specific importance measures.
 - **Error Analysis**: Identify common misclassifications to gain insights into possible model or feature refinements.
 
 ### 7. Final Evaluation on Test Set
@@ -41,12 +41,10 @@ The goal is to enhance the efficiency of Security Operation Centers (SOCs) by au
 
 ### 8. Documentation and Reporting
 - **Model Documentation**: Thoroughly document the entire process, including data preprocessing, model selection, evaluation metrics, and challenges encountered.
-- **Recommendations**: Provide suggestions for integrating the model into SOC workflows, future improvements, and considerations for deployment.
-
+  
 ## Results
 - A machine learning model capable of accurately predicting the triage grade of cybersecurity incidents (TP, BP, FP) with high **macro-F1 score**, **precision**, and **recall**.
 - Comprehensive analysis of model performance, including insights into which features are most influential in the prediction process.
-- Detailed documentation of the modeling process, including recommendations for integration into real-world SOC environments.
 
 ## Project Evaluation Metrics
 The success and effectiveness of the project will be evaluated based on the following metrics:
